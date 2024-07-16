@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "poppins", sans-serif;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+/*Header Area Start */
+
+.header-area{
+   background-color: rgb(242, 249, 249);
+}
+
+.header-area-start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-area-menu ul{
+    display: flex;
+}
+.header-area-menu ul li{
+    list-style: none;
+    margin-right: 30px;
+    padding: 20px;
+}
+
+.header-area-menu ul li a {
+    text-decoration: none;
+}
+/* Header Area End*/
+
+/*banner Area Staer */
+.banner-img{
+    background-image: url("image/empower/Rectangle\ 27.png");
+    height: 616px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-area-start{
+    text-align: center;
+    width: 1440px;
+    height: 616px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 50px;
+    color:rgb(220, 220, 156) ;
+}
+.banner-area-start-btnn-button{
+    width: 338px;
+    height: 58px;
+    font-size: 80px;
+    text-align: center;
+}
+/*banner Area End*/
+
+/* About the Principal Staer*/ 
+.About-the-Principal-area{
+    display: flex;
+    padding: 70px 0 50px 0;
+    
+ }
+ .About-the-Principal-text-area{
+     margin-left: 30px;
+     font-size: 20px;
+     
+     
+ }
+ .About-the-Principal-text-area button{
+    width: 338px;
+    background-color: rgb(158, 196, 120);
+    border:none;
+    height: 50px;
+   border-radius: 10px;
+
+ }
+
+/*About the Principal End */
+/*Want to change Start  */
+.want-to-change{
+    display: flex;
+    width: 1440px;
+    height: 927px;
+    top: 1574px;
+    background: #e0f6f1;
+    height: 667px;
+}
+
+.want-to-change-text{
+    text-align: center;
+}
+.want-to-change-input input{
+    width: 60%;
+    height: 73px;
+    margin-top: 10px;
+}
+
+.want-to-change-button{
+    width: 20%;
+    height: 73px;
+    margin-top: 10px;
+}
+
+ /*Want to change End  */
+ /* Services area Start */
+ .services{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.services-text{
+    text-align: center;
+ 
+}
+
+.services-img{
+    border-radius: 50%;
+    width: 314px;
+    height: 314px;
+}
+.button{
+    width: 20%;
+    height: 73px;
+    margin-top: 10px;
+}
+ /* Services area End */
+ /* Our philosophy area Start */
+ #our-philosophy{
+    display: flex;
+    margin-top: 100px;
+    width: 1440px;
+    height: 667px;
+    top: 3484px;
+    background: #d8efef;
+}
+.our-philosophy-class{
+    width: 534px;
+    height: 662px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.our-philosophy-text h1{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 57.6px;
+    text-align: center;
+    
+}
+.our-philosophy-text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.02px;
+    text-align: center;
+    width: 603px;
+    height: 400px;
+    top: 3710px; 
+    margin-left: 30px;  
+    margin-right: 30px;
+}
+.our-philosophy-2{
+    display: flex;
+    padding: 20px;
+}
+.our-philosophy{
+    font-size: 16px;
+    font-weight: 400;
+    width: 578px;
+    height: 285px;
+  
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.02px;
+    text-align: left;
+
+}
+
+.button{
+    width: 40%;
+    height: 73px;
+    top: 1401px;
+   margin-left: 100px;
+    margin-top: 100px;
+
+}
+.our-philosophy-img{
+    width: 650px;
+    height: 780px;
+}
+
+/*  Our philosophy area End*/
+
+.the-therapy-mind{
+ font-size: 50px;
+ font-weight:bold ;
+ text-align: center;
+}
+ /*footer Area Start */
+
+
+ .footer-area{
+    background-color: rgb(242, 249, 249);
+ }
+ 
+ .footer-area-start{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ .footer-area-menu ul{
+     display: flex;
+ }
+ .footer-area-menu ul li{
+     list-style: none;
+     margin-right: 30px;
+     padding: 20px;
+ }
+ 
+ .footer-area-menu ul li a {
+     text-decoration: none;
+ }
+ 
+ /* footer Area End*/
